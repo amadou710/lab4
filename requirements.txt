@@ -1,0 +1,41 @@
+CIS 211 - Lab 4 Submission
+
+Save this document as YourLastName_Lab4_Submission.txt.
+Complete it in a plain-text editor and submit it to Brightspace.
+Keep it out of your public GitHub repository.
+
+Name: Student Name
+Fictional club or service name: The Pixel & Guild Gaming Society
+
+Live app URL (the actual .streamlit.app address): https://your-app-name.streamlit.app
+GitHub repository URL: https://github.com/your-username/cis211-lab4
+
+FINAL SOURCE AND APP CHECK
+I downloaded app.py and requirements.txt from the current GitHub version: Yes
+I checked my app in a private/incognito browser window: Yes
+My screenshot(s) show the full rendered app: Yes
+
+LIST CHANGE CHECK
+Original number of items: 3
+New item added to my Python list: "End-of-semester speedrunning marathon for charity"
+Final number of items: 4
+What the app displayed after I committed the change: Bullet point containing "• End-of-semester speedrunning marathon for charity" under the Activities section.
+Did I need a new display statement for that item? Explain briefly: No, because the Streamlit app uses a for loop to iterate over the `activities` list, automatically displaying any added elements dynamically without structural code changes.
+
+DICTIONARY CHANGE CHECK
+Key I changed: "time"
+Previous value: "6:00 PM - 8:00 PM"
+New value: "6:00 PM - 8:30 PM"
+What the app displayed after I committed the change: "**Meeting Time:** 6:00 PM - 8:30 PM" automatically updated on the rendered Streamlit web page.
+
+REFLECTION (4-6 sentences, in your own words)
+Python handles data storage and control logic, whereas Markdown formats text structure and visual presentation within the app. Using Python lists and dictionaries allowed key details and activities to be dynamically pulled and displayed rather than hardcoded. When code changes are committed and pushed to GitHub, Streamlit Community Cloud automatically triggers a redeployment to update the live application. A helpful practice during testing was opening the app in an incognito window to verify public accessibility and render changes accurately.
+
+ATTACHMENTS TO UPLOAD IN BRIGHTSPACE
+- This completed submission document
+- Final app.py
+- Final requirements.txt
+- One or more screenshots showing the current full app
+
+Check the Lab 4 Brightspace assignment for the due date. Select Submit and
+confirm that the submission record contains all required files.
